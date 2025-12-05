@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjectHub - Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <h1>ProjectHub</h1>
+        </div>
+        <div class="right-panel">
+            <div class="tagline">Track your projects and stay organized with ProjectHub.</div>
+            
+            <div id="loginForm" class="login-form">
+                 <form>
+                     <div class="form-group">
+                         <label for="email">Email or Username</label>
+                         <input type="text" id="email" name="email" required placeholder="Enter your email or username">
+                     </div>
+                     <div class="form-group">
+                         <label for="password">Password</label>
+                         <input type="password" id="password" name="password" required>
+                     </div>
+                     <button type="submit" class="btn login-btn">Log In</button>
+                 </form>
+                 <div id="loginError" class="error-message"></div>
+                 <!-- <div class="forgot-password">
+                     <a href="#">Forgot password?</a>
+                 </div> -->
+                <div class="divider">
+                    <span>or</span>
+                </div>
+                 <a href="/create-profile.html" id="registerLink" class="register-link">Create new profile</a>
+            </div>
+            
+        </div>
+    <script src="login.js"></script>
+</body>
+</html>
